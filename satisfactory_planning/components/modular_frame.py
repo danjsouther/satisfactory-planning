@@ -7,7 +7,7 @@ from .steel_pipe import SteelPipe
 class ModularFrame(Component):
 	production = Assembler(
 		inputs = [
-			ReinforcedIronPlateAlt(3),
+			ReinforcedIronPlate(3),
 			IronRod(6)
 		],
 		output = 1,
@@ -17,7 +17,7 @@ class ModularFrame(Component):
 class ModularFrameAlt(Component):
 	production = Assembler(
 		inputs = [
-			ReinforcedIronPlateAlt(6),
+			ReinforcedIronPlate(6),
 			SteelPipe(6)
 		],
 		output = 3,

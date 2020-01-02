@@ -27,7 +27,7 @@ class Machine(object):
             itemSankey.target.append(self.id)
             sankey += itemSankey
         sankey.source.append(self.id)
-        sankey.value.append(clockSpeed)
+        sankey.values.append(clockSpeed)
         return sankey
     
 class Smelter(Machine):

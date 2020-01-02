@@ -21,9 +21,9 @@ class ComputerAlt(Component):
 	production = Manufacturer(
 		inputs = [
 			CircuitBoard(5),
-			CableAlt(12),
+			Cable(12),
 			Plastic(18),
-			ScrewAlt(60)
+			Screw(60)
 		],
 		output = 1,
 		rate = 1.875

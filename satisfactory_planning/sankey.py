@@ -4,7 +4,7 @@ class Sankey(object):
         self._labels = []
         self.source = []
         self.target = []
-        self.value = []
+        self.values = []
         
     def addLabel(self, index, label):
         self._labels.append({'index': index, 'label': label})
@@ -14,8 +14,8 @@ class Sankey(object):
         labelMax = max(map(lambda l: l['index'], self._labels))
         labels = ['']*(labelMax+1)
         for item in self._labels:
-            if item['label'] not in labels:
-                labels[item['index']] = item['label']
+            # if item['label'] not in labels:
+            labels[item['index']] = item['label']
         return labels
         
     def __add__(self, other):
@@ -23,5 +23,5 @@ class Sankey(object):
         sankey._labels = self._labels + other._labels
         sankey.source = self.source + other.source
         sankey.target = self.target + other.target
-        sankey.value = self.value + other.value
+        sankey.values = self.values + other.values
         return sankey

@@ -9,10 +9,10 @@ from .screw import Screw, ScrewAlt
 class HeavyModularFrame(Component):
 	production = Manufacturer(
 		inputs = [
-			ModularFrameAlt(5),
+			ModularFrame(5),
 			SteelPipe(15),
-			EncasedIndustrialBeamAlt(5),
-			ScrewAlt(90)
+			EncasedIndustrialBeam(5),
+			Screw(90)
 		],
 		output = 1,
 		rate = 2
@@ -21,9 +21,9 @@ class HeavyModularFrame(Component):
 class HeavyModularFrameAlt(Component):
 	production = Manufacturer(
 		inputs = [
-			ModularFrameAlt(8),
+			ModularFrame(8),
 			SteelPipe(36),
-			EncasedIndustrialBeamAlt(10),
+			EncasedIndustrialBeam(10),
 			Concrete(25)
 		],
 		output = 3,
