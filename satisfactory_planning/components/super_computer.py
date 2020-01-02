@@ -1,8 +1,8 @@
 from ..component import Component
 from ..machine import Manufacturer
 from .computer import Computer
-from .ailimiter import AILimiter
-from .highspeedconnector import HighSpeedConnector
+from .ai_limiter import AILimiter
+from .high_speed_connector import HighSpeedConnector
 from .plastic import Plastic
 
 class SuperComputer(Component):

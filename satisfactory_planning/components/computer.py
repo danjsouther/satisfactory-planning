@@ -1,6 +1,6 @@
 from ..component import Component
 from ..machine import Manufacturer
-from .circuitboard import CircuitBoard
+from .circuit_board import CircuitBoard
 from .cable import Cable, CableAlt
 from .plastic import Plastic
 from .screw import Screw, ScrewAlt

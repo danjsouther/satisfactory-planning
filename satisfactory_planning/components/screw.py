@@ -1,6 +1,6 @@
 from ..component import Component
 from ..machine import Constructor
-from .ironrod import IronRod
+from .iron_rod import IronRod
 from .ingot import Iron
 
 class Screw(Component):

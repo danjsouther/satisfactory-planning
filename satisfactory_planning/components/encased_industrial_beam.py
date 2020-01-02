@@ -1,7 +1,7 @@
 from ..component import Component
 from ..machine import Assembler
-from .steelbeam import SteelBeam
-from .steelpipe import SteelPipe
+from .steel_beam import SteelBeam
+from .steel_pipe import SteelPipe
 from .concrete import Concrete
 
 

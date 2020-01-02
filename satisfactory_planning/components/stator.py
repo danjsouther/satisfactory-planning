@@ -1,6 +1,6 @@
 from ..component import Component
 from ..machine import Assembler
-from .steelpipe import SteelPipe
+from .steel_pipe import SteelPipe
 from .wire import Wire
 
 class Stator(Component):

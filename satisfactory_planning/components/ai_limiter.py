@@ -1,6 +1,6 @@
 from ..component import Component
 from ..machine import Assembler
-from .circuitboard import CircuitBoard
+from .circuit_board import CircuitBoard
 from .quickwire import Quickwire
 	
 class AILimiter(Component):

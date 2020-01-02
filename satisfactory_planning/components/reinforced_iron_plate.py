@@ -1,6 +1,6 @@
 from ..component import Component
 from ..machine import Assembler
-from .ironplate import IronPlate
+from .iron_plate import IronPlate
 from .wire import Wire
 
 class ReinforcedIronPlateAlt(Component):

@@ -1,9 +1,9 @@
 from ..component import Component
 from ..machine import Manufacturer
-from .modularframe import ModularFrame, ModularFrameAlt
+from .modular_frame import ModularFrame, ModularFrameAlt
 from .concrete import Concrete
-from .steelpipe import SteelPipe
-from .encasedindustrialbeam import EncasedIndustrialBeam, EncasedIndustrialBeamAlt
+from .steel_pipe import SteelPipe
+from .encased_industrial_beam import EncasedIndustrialBeam, EncasedIndustrialBeamAlt
 from .screw import Screw, ScrewAlt
 
 class HeavyModularFrame(Component):

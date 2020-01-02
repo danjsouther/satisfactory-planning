@@ -1,6 +1,6 @@
 from ..component import Component
 from ..machine import Assembler
-from .ironrod import IronRod
+from .iron_rod import IronRod
 from .screw import Screw, ScrewAlt
 
 class Rotor(Component):

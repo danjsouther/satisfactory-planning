@@ -1,8 +1,8 @@
 from ..component import Component
 from ..machine import Assembler
-from .reinforcedironplate import ReinforcedIronPlateAlt
-from .ironrod import IronRod
-from .steelpipe import SteelPipe
+from .reinforced_iron_plate import ReinforcedIronPlateAlt, ReinforcedIronPlate
+from .iron_rod import IronRod
+from .steel_pipe import SteelPipe
 
 class ModularFrame(Component):
 	production = Assembler(
